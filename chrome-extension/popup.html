@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Someta Math Helper</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header>
+      <h1>Someta Math Helper</h1>
+    </header>
+    
+    <div class="content">
+      <p>Click the button below to activate the Someta math helper widget on this page.</p>
+      
+      <button id="activateBtn" class="activate-btn">Activate Widget</button>
+      
+      <div class="options">
+        <h2>Options</h2>
+        
+        <div class="option-item">
+          <label for="apiKeyInput">API Key (if required):</label>
+          <input type="password" id="apiKeyInput" placeholder="Enter your API key">
+        </div>
+        
+        <div class="option-item">
+          <label>
+            <input type="checkbox" id="startMinimized"> 
+            Start widget minimized
+          </label>
+        </div>
+        
+        <div class="option-item">
+          <label>
+            <input type="checkbox" id="darkMode"> 
+            Dark mode
+          </label>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <button id="saveOptions" class="save-btn">Save Options</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/popup.js"></script>
+</body>
+</html> 
